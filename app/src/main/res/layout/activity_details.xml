@@ -126,8 +126,8 @@
                 android:id="@+id/addToFavorite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorAccent"
-                android:text="LIKE  ♡" />
+                android:background="@color/mycolor"
+                android:text="Add to favorites" />
 
 
         </LinearLayout>

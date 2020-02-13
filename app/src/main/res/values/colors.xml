@@ -2,10 +2,11 @@
 <resources>
     <color name="colorPrimary">#7A7676</color>
     <color name="colorPrimaryDark">#6F6C6C</color>
-    <color name="colorAccent">#21D81B</color>
+    <color name="colorAccent">#9db847</color>
     <color name="viewBg">#f1f5f8</color>
     <color name="movie_title">#4c4c4c</color>
     <color name="white">#FFF</color>
     <color name="grey">#918B8B</color>
     <color name="red">#F00909</color>
+    <color name="mycolor">#9db847</color>
 </resources>

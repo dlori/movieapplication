@@ -20,12 +20,6 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         tools:context=".RegisterAndLogin.RegisterActivity">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="127dp"
-            app:srcCompat="@drawable/ic_launcher_background"
-            tools:ignore="VectorDrawableCompat" />
-
 
         <TextView
             android:id="@+id/registerText"
@@ -42,7 +36,7 @@
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:layout_marginTop="20dp"
-            android:text="Please enter your name:" />
+            android:text="Enter your name:" />
 
         <EditText
             android:id="@+id/name"
@@ -58,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Please enter your age:"/>
+            android:text="Enter your age:"/>
 
         <EditText
             android:id="@+id/age"
@@ -74,7 +68,7 @@
             android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Please enter your email"
+            android:text="Enter your email"
             android:textSize="20dp"/>
 
         <EditText
@@ -91,7 +85,7 @@
             android:id="@+id/textViewPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Please enter your password and confirm password:"
+            android:text="Enter password"
             android:textSize="15dp"/>
 
         <EditText
@@ -119,7 +113,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
-            android:background="@color/colorAccent"
+            android:background="@color/mycolor"
             android:text="Register"
             android:textColor="@android:color/black" />
     </LinearLayout>

@@ -16,13 +16,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="127dp"
-            android:layout_marginTop="50dp"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/ic_launcher_foreground"
-            tools:ignore="VectorDrawableCompat" />
 
         <TextView
             android:id="@+id/loginText"
@@ -46,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:hint="Please enter your email"
+            android:hint="Enter email"
             android:inputType="textEmailAddress"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/black" />
@@ -62,7 +55,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:hint="Please enter your password"
+            android:hint="Enter password"
             android:inputType="textPassword"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/black" />
@@ -80,7 +73,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
-            android:background="@color/colorAccent"
+            android:background="@color/mycolor"
             android:text="Login"
             android:textColor="@android:color/black" />
 
@@ -96,7 +89,7 @@
             android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:background="@color/colorAccent"
+            android:background="@color/mycolor"
             android:layout_gravity="center"
             android:paddingLeft="5dp"
             android:text="REGISTER"
